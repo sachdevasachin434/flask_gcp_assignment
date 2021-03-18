@@ -1,0 +1,9 @@
+runtime: python37
+env_variables:
+    PROJECT_ID: my-user-project-307310
+    PUBSUB_TOPIC_GCS: projects/my-user-project-307310/topics/gcs_pubsub
+    PUBSUB_TOPIC_Datastore: projects/my-user-project-307310/topics/firestore_pubsub
+    PUBSUB_TOPIC_BigQuery: projects/my-user-project-307310/topics/bigquery_pubsub
+    SUBSCRIPTION_ID_Datastore: firestore_sub
+    SUBSCRIPTION_ID_GCS: gcs_sub
+    SUBSCRIPTION_ID_Bigquery: bigquery_sub
